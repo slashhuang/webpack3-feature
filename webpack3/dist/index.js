@@ -93,8 +93,7 @@ console.log(src_index);
 /* 1 */
 /***/ (function(module, exports) {
 
-const c = 'c';
-// con d ='d';
+throw new Error("Module parse failed: /Users/slashhuang/personal-repo/js/webpack3-feature/webpack3/src/node_modules/c.js Unexpected token (2:7)\nYou may need an appropriate loader to handle this file type.\n| const index = 'index';\n| export cost c = 'c' + index;\n| console.log(c);");
 
 /***/ })
 /******/ ]);
