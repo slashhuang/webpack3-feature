@@ -1,0 +1,10 @@
+{
+  "name": "webpack3-feature",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
+}
