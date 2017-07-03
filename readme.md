@@ -26,4 +26,4 @@ A repository for you to understand diff feature for webpack3 versus webpack2
 ## feature [breaking change]
 
 - 1. node_modules no longer mangle to ~ in stats
-[node_modules vs ~](./assets/node_modules.png)
+![node_modules vs ~](./assets/node_modules.png)
