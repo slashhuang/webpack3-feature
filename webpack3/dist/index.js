@@ -1,3 +1,4 @@
+var MyLibrary =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -80,20 +81,20 @@ const b_index = 'index';
 const b = 'b-' + b_index;
 console.log(b);
 
+// CONCATENATED MODULE: ./src/node_modules/c.js
+const c_index = 'index';
+const c = 'c' + c_index;
+console.log(c);
 // CONCATENATED MODULE: ./src/index.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_c__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_c___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_c__);
 
 
 
 const src_index = 'index';
 console.log(src_index);
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-throw new Error("Module parse failed: /Users/slashhuang/personal-repo/js/webpack3-feature/webpack3/src/node_modules/c.js Unexpected token (2:7)\nYou may need an appropriate loader to handle this file type.\n| const index = 'index';\n| export cost c = 'c' + index;\n| console.log(c);");
+exports.c = {
+    c: 1
+}
 
 /***/ })
-/******/ ]);
+/******/ ])["fuck"];
+//# sourceMappingURL=index.js.map

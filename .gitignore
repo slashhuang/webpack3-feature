@@ -1,6 +1,6 @@
 
 # https://git-scm.com/docs/gitignore
 
-
+*.map
 node_modules/
 !webpack*/src/node_modules
