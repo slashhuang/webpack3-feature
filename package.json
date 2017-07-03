@@ -1,0 +1,23 @@
+{
+  "name": "webpack3-feature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "3": "cd webpack3 && cnpm install --verbose",
+    "2": "cd webpack2 && cnpm install --verbose",
+    "parent": "cnpm install --verbose",
+    "i": "concurrently \"npm run parent\" \"npm run 2\" \"npm run 3\"",
+    "start": "rimraf dist && webpack"
+  },
+  "keywords": [
+    "webpack2",
+    "webpack3"
+  ],
+  "author": "slashhuang",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.0.1",
+    "rimraf": "^2.6.1"
+  }
+}
